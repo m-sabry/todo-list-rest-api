@@ -1,0 +1,10 @@
+{
+  "dev": {
+      "driver": "mysql",
+      "host": "localhost",
+      "database": "todoist",
+      "user": "localuser",
+      "password": "localpassword"
+    },
+  "sql-file" : true
+}

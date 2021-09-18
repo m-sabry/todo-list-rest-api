@@ -1,0 +1,6 @@
+CREATE TABLE TASKS (
+    id int AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    name VARCHAR(500) NOT NULL,
+    description TEXT,
+    todo_id int NOT NULL REFERENCES TODOS(id)
+)
